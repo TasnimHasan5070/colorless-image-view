@@ -8,7 +8,10 @@ Get a colored image from the user and show the grayscale version side by side.
     - Since, all is happening in local memory, no need of a form.
 
 2. Make a local copy and convert to black and white.
-    -
+    - Make a URL for that local file.
+    - set this as the source in the image tag .
+    - use the CSS fileter:grayscale().
+    - filter:grayscale can take percentage value,based on the percentage,black and white effect will be changed.
 
 3. Show the edited image side by side to the original.
     - Both of the input and output images should be in it's own canvas.
