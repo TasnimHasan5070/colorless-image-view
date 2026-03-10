@@ -8,6 +8,7 @@ Get a colored image from the user and show the grayscale version side by side.
     - Since, all is happening in local memory, no need of a form.
 
 2. Make a local copy and convert to black and white.
+    -
 
 3. Show the edited image side by side to the original.
     - Both of the input and output images should be in it's own canvas.
