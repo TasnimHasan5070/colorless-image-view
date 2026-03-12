@@ -15,7 +15,6 @@
 
 <body>
   <!-- Temporary -->
-  <p class="temp-text">Remove this after taking and storing input image in browser's local memory.</p>
   <p class="temp-text">You don't actually know anything about colors.</p>
   <p class="temp-text">Remove this after showing the edited image somehow.</p>
 
@@ -23,7 +22,11 @@
   <header></header>
 
   <!-- Workspace -->
-  <main></main>
+  <main>
+    <input id="image-input" type="file" accept="image/*" onchange="doTheThing()">
+    <img id="image-output-original" alt="not loaded" width="400">
+    <img id="image-output-grayscale" alt="not loaded" width="400">
+  </main>
 
   <!-- Developer's info -->
   <footer></footer>
