@@ -3,3 +3,7 @@ p.temp-text {
   padding: 1em;
   opacity: 0.5;
 }
+
+#image-output-grayscale {
+  filter: grayscale(100%);
+}
